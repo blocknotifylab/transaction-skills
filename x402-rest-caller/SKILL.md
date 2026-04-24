@@ -1,3 +1,8 @@
+---
+name: x402-rest-caller
+description: Choose BlockNotify x402 REST endpoints, payloads, and response handling for transaction safety workflows.
+---
+
 # x402 REST Caller
 
 Use this skill when an agent needs to evaluate an EVM transaction before

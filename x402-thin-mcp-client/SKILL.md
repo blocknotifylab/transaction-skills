@@ -1,3 +1,8 @@
+---
+name: x402-thin-mcp-client
+description: Configure and use the thin BlockNotify MCP proxy package that forwards tool calls to x402 hosted REST APIs.
+---
+
 # x402 Thin MCP Client
 
 Use this skill when an agent needs MCP tool ergonomics while keeping execution
