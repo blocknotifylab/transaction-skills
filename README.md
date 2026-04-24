@@ -9,7 +9,7 @@ Two distribution channels are supported:
 
 It contains:
 
-- skills docs (`SKILL.md`) for agent guidance
+- a single `SKILL.md` for guided setup and usage
 - examples and integration guidance
 
 This package does not contain merchant backend logic or runtime binaries.
@@ -18,10 +18,9 @@ All execution is routed to:
 - Base URL: `https://x402.blocknotify.com`
 - Payment protocol: x402 (USDC on Base mainnet)
 
-## Included skills
+## Included skill
 
-- `x402-rest-caller` — choose the right endpoint and shape payloads
-- `x402-thin-mcp-client` — run and integrate the thin local MCP proxy
+- `blocknotify-x402-setup` — one-step setup guidance for skills + MCP runtime
 
 ## End-user install
 
