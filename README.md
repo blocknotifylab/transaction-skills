@@ -55,6 +55,12 @@ Add this to Cursor MCP settings (adjust env values):
 }
 ```
 
+In Cursor with `/claude`, you can then prompt:
+
+```text
+use blocknotify x402 skill to find token metadata for UNI
+```
+
 ## Publish checklist
 
 ```bash
