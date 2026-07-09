@@ -18,6 +18,15 @@ All execution is routed to:
 - Base URL: `https://x402.blocknotify.com`
 - Payment protocol: x402 (USDC on Base mainnet)
 
+## How this fits the BlockNotify ecosystem
+
+| Piece | Where it lives | Role |
+|---|---|---|
+| This repo | `blocknotifylab/transaction-skills` | Docs-only skill definition (`SKILL.md`) — no code |
+| MCP runtime | `@blocknotify/x402-mcp` on npm (separate repo `../x402-mcp`) | Thin forwarder the skill configures |
+| Hosted service | `https://x402.blocknotify.com` — the **blocknotify-intelligence** app on DigitalOcean App Platform | Executes requests, settles x402 payments |
+| Core product | `cryptowatchdog/backend` (BlockNotify) | Separate codebase; shares the DigitalOcean account/branding, not code |
+
 ## Included skill
 
 - `blocknotify-x402-setup` — one-step setup guidance for skills + MCP runtime
